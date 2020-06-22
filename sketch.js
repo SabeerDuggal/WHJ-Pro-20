@@ -2,7 +2,7 @@ var car,wall;
 var speed, weight;
 var deformity;
 function setup() {
-  createCanvas(1600,400);
+ createCanvas(1600,400);
  var car =  createSprite(400, 200, 50, 50);
  var wall = createSprite(1500,200,60,200);
  car.shapeColor="blue";
@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background("white");
    
  
 
