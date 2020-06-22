@@ -5,8 +5,8 @@ function setup() {
   createCanvas(1600,400);
  var car =  createSprite(400, 200, 50, 50);
  var wall = createSprite(1500,200,60,200);
- car.shapeColor("blue");
- wall.shapeColor("blue")
+ car.shapeColor="blue";
+ wall.shapeColor="blue";
  speed = random(55,90) ;
  weight = random(400,1500);
  car.velocityX=speed;
